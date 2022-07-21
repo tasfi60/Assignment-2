@@ -215,7 +215,7 @@ body{
     margin-left: 10px;
     color: rgb(130, 124, 124);
 }
-button{
+.btn{
     display: none;
 }
 /* .................mid-content style ends............... */
@@ -541,14 +541,18 @@ hr{
         column-gap: 10px;
         row-gap: 20px;
     }
-    button{
+    .btn{
         display:flex;
         align-items: center;
         justify-content: center;
         width: 100px;
+        padding: 5px;
         margin-top:50px;
         margin-left: 380px;
+        color: #FFFFFF;
         background-color: red;
+        border: 0px solid red;
+        border-radius: 5px;
     }
 
     .footer{
