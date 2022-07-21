@@ -16,29 +16,29 @@ body{
 
 
 .header-container{
- /* position: absolute; */
- width: 1321px;
- height: 646px;
- background: #343333;
- margin-top: 83px;
- margin-bottom: 130px;
- margin-left: 100px;
- border-radius: 30px;
- display: flex;
- box-shadow: 20px 20px 50px lightgrey;
+ 
+    width: 1321px;
+    height: 646px;
+    background: #343333;
+    margin-top: 83px;
+    margin-bottom: 130px;
+    margin-left: 100px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 20px 20px 50px lightgrey;
 
 }
-.container{
-width: 50%;
-height: 424px;
-margin: 111px 684px 111px 106px;
+.container {
+    width: 50%;
+    height: 424px;
+    margin: 111px 684px 111px 106px;
 }
 
 
-.header-title{
- position: absolute;
- width: 531px;
- height: 240px;
+.header-title {
+    position: absolute;
+    width: 531px;
+    height: 240px;
  }
 
 
@@ -67,6 +67,9 @@ margin: 111px 684px 111px 106px;
     margin-top: 0;
     opacity: 0.7;
 }
+
+/* -------------transition-part-------- */
+
 .header-button{
     width: 150px;
     height: 23px;
@@ -108,7 +111,7 @@ margin: 111px 684px 111px 106px;
     justify-content: space-between;
 }
 .header-img{
-    /* position: absolute; */
+    
     margin-left: -800px;
     width: 50%;
     height: 613px;
@@ -121,6 +124,8 @@ margin: 111px 684px 111px 106px;
 }
 /* ...................header-style ends here................... */
 
+
+/* ...............mid-content style starts................. */
 .mid-content{
     width: 1321px;
     height: 646px;
@@ -129,7 +134,7 @@ margin: 111px 684px 111px 106px;
     
 }
 .nav-bar{
-    /* position: absolute; */
+    
     width: 22%;
     height: 290px;
     background-color: #2a2828;
@@ -172,7 +177,6 @@ margin: 111px 684px 111px 106px;
 
 }
 .blog{
-    /* position: absolute; */
     width: 78%;
     height: 646px;
     margin-left: 20px;
@@ -224,6 +228,7 @@ margin: 111px 684px 111px 106px;
     text-align: center;
     color: #4D4D4D;
 }
+/* .................mid-content style ends .............. */
 
 
 /* --------------footer-style---------- */
@@ -273,6 +278,7 @@ hr{
 .social-link i{
     font-size: 25px;
 }
+/* --------------footer-style ends---------- */
 
 
 /* ------------------media-queries------------ 
@@ -382,7 +388,6 @@ hr{
         
     }
     #nav-btn{
-        /* position: absolute; */
         border: 1px solid #E8E8E8 ;
         width: 58%;
         margin-left: 40px;
